@@ -2,6 +2,6 @@
 
 ## Csapattagok
 
-- Bodnár Nikolett
-- Laukó Szandra
-- Pál Csenge
+- [Bodnár Nikolett](https://github.com/bonikia)
+- [Laukó Szandra](https://github.com/AelinGalathyn)
+- [Pál Csenge](https://github.com/Butter3eer)
