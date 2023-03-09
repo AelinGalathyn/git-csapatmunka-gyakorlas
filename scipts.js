@@ -6,7 +6,7 @@ function calculateTriangle() {
     var perimeter = side1 + side2 + side3;
     var s = perimeter / 2;
     var area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
-    document.getElementById("result").innerHTML = "A háromszög kerülete: " + round(perimeter, 2) + "<br>A háromszög területe: " + round(area, 2);
+    document.getElementById("result").innerHTML = "A háromszög kerülete: " + perimeter.toFixed(2) + "<br>A háromszög területe: " + area.toFixed(2);
     }
     else{
         alert("Hibás értékek!")

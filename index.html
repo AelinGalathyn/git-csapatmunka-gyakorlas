@@ -15,18 +15,30 @@
 </head>
 
 <body>
+    <div>
+        <p>
+            Adja meg a háromszög oldalainak hosszát:
+        </p>
+        <input type="number" id="side1">
+        <input type="number" id="side2">
+        <input type="number" id="side3">
+        <button onclick="calculateTriangle()">Számítás</button>
+        <br><br>
+        <p id="result"></p>
+    </div>
+    
     <table class="table">
-
+        <thead>
+            <tr>
+                <th>"A" oldal</th>
+                <th>"B" oldal</th>
+                <th>"C" oldal</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
     </table>
-    <p>
-        Adja meg a háromszög oldalainak hosszát:
-    </p>
-    <input type="number" id="side1">
-    <input type="number" id="side2">
-    <input type="number" id="side3">
-    <button onclick="calculateTriangle()">Számítás</button>
-    <br><br>
-    <p id="result"></p>
 </body>
 
 </html>
