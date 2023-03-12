@@ -15,28 +15,30 @@
 </head>
 
 <body>
+  <form action="get" id="urlap">
     <div>
-        <p>Adja meg a háromszög oldalainak hosszát:</p>
-        <input type="number" id="side1">
-        <input type="number" id="side2">
-        <input type="number" id="side3">
-        <button onclick="calculateTriangle()" class="btn btn-primary">Számítás</button>
-        <br><br>
+      <p>Adja meg a háromszög oldalainak hosszát:</p>
+      <input type="number" id="side1">
+      <input type="number" id="side2">
+      <input type="number" id="side3">
+      <button onclick="calculateTriangle()" class="btn btn-primary">Számítás</button>
+      <br><br>
     </div>
 
     <table class="table table-light">
-        <thead>
-          <tr>
-            <th>"A" oldal</th>
-            <th>"B" oldal</th>
-            <th>"C" oldal</th>
-            <th>Terület</th>
-            <th>Kerület</th>
-          </tr>
-        </thead>
-        <tbody id="tableBody">
-        </tbody>
-      </table>
+      <thead>
+        <tr>
+          <th>"A" oldal</th>
+          <th>"B" oldal</th>
+          <th>"C" oldal</th>
+          <th>Terület</th>
+          <th>Kerület</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+      </tbody>
+    </table>
+  </form>
 </body>
 
 </html>
